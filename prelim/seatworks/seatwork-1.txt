@@ -1,6 +1,6 @@
 Seatwork #1
 
-Create a dart program that displays your personal information using Maps.
+Create a dart program that displays your personal information using Maps and prints in console.
 
 Example result:
 
