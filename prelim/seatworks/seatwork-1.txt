@@ -1,0 +1,10 @@
+Seatwork #1
+
+Create a dart program that displays your personal information using Maps.
+
+Example result:
+
+Hi, my name is Elon Musk.
+My age is 44.
+I studied at Standford University.
+My favorite sport is Basketball.
