@@ -8,3 +8,10 @@ Hi, my name is Elon Musk.
 My age is 44.
 I studied at Standford University.
 My favorite sport is Basketball.
+
+-----
+
+Hi, my name is <firstName lastName>.
+My age is <age>
+I studied at <school>.
+My favorite sport is <sport>.
