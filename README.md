@@ -10,6 +10,8 @@ List of instructor materials for the Elective 2 course
 
 4. Dart - https://dart.dev/get-dart
 
+5. Dart Docs - https://dart.dev/guides/language/language-tour
+
 ## Git Account Setup
 1. Open terminal
 
