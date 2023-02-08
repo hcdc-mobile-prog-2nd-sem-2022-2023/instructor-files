@@ -1,0 +1,14 @@
+Quiz #1
+
+Create a program that will accept temperature in celsius and convert them
+to fahrenheit and kelvin respectively.
+
+F = 9(C)/5 + 32
+K = C + 273
+
+Example result:
+
+Enter temperature in Celsius: 50.5
+
+Temperature in Fahrenheit: 122.9
+Temperature in Kelvin: 323.5
