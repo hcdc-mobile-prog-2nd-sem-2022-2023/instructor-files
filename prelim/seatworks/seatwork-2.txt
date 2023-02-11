@@ -1,0 +1,20 @@
+Seatwork #2
+
+Create a dart program that will allow the user to choose and calculate the 
+perimeter or area of a square.
+
+- It should accept decimal numbers
+- It should show an error if input is 0 or negative
+- It should allow user to select with the ff:
+    - Pressing "1" means calculate the perimeter
+    - Pressing "2" means calculate the area
+
+Perimeter of square = 4s
+Area of square = s^2
+
+Example result:
+
+Select `1` to calculate perimeter of square, `2` to calculate area of square: 2
+Input the side of the square: 5
+
+Area is: 25
