@@ -52,16 +52,80 @@ void main() {
   // }
 
   // if elseif - ask if number is in range
-  print("Enter a number:");
-  var number = int.parse(stdin.readLineSync(encoding: utf8)!);
+  // print("Enter a number:");
+  // var number = int.parse(stdin.readLineSync(encoding: utf8)!);
 
-  if (number >= 0 && number <= 49) {
-    print("Number is less");
-  } else if (number >= 50 && number <= 90) {
-    print("Number is on range");
-  } else if (number >= 91 && number <= 100) {
-    print("Number is more");
-  } else {
-    print("Invalid number");
+  // if (number >= 0 && number <= 49) {
+  //   print("Number is less");
+  // } else if (number >= 50 && number <= 90) {
+  //   print("Number is on range");
+  // } else if (number >= 91 && number <= 100) {
+  //   print("Number is more");
+  // } else {
+  //   print("Invalid number");
+  // }
+
+  // var age = 17;
+  // bool isAgeLegal;
+
+  // bad
+  // if (age >= 18) {
+  //   print("legal");
+  // } else {
+  //   print("taph");
+  // }
+
+  // good
+  // if (age < 18) {
+  //   isAgeLegal = false;
+  //   return;
+  // }
+
+  // isAgeLegal = true;
+
+  // if age is accepted then print "legal"
+  // else terminate the program
+  // print("legal");
+
+  // conditional expressions
+  // var age = 18;
+  // bool isLegalAge = age >= 18;
+  // if grade is passed, gradeFlag = 1 else gradeFlag = -1
+  // var grade = 75;
+  // int gradeFlag = grade >= 75 ? 1 : -1;
+
+  // switch cases
+  // 0 - PENDING
+  // 1 - ACCEPTED
+  // 2 - SHIPPED
+  // 3 - RECEIVED
+  // 4 - RETURNED
+  // 5 - CANCELLED
+
+  print("Enter status code:");
+  var statusCode = int.parse(stdin.readLineSync(encoding: utf8)!);
+
+  switch (statusCode) {
+    case 0:
+      print("PENDING");
+      break;
+    case 1:
+      print("ACCEPTED");
+      break;
+    case 2:
+      print("SHIPPED");
+      break;
+    case 3:
+      print("RECEIVED");
+      break;
+    case 4:
+      print("RETURNED");
+      break;
+    case 5:
+      print("CANCELLED");
+      break;
+    default:
+      print("INVALID CODE");
+      break;
   }
 }
