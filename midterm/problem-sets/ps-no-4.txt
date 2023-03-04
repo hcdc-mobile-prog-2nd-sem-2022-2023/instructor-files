@@ -1,0 +1,27 @@
+Problem Set No. 4
+
+Create a program that will continuously ask user for a positive integer input
+and calculate its average. It should let user to terminate the program or 
+proceed to calculate.
+
+Example:
+
+Select (1) to add entry, (2) to calculate, (-1) to exit: 1
+Enter positive integer: 2
+
+Select (1) to add entry, (2) to calculate, (-1) to exit: 1
+Enter positive integer: 4
+
+Select (1) to add entry, (2) to calculate, (-1) to exit: 1
+Enter positive integer: 6
+
+Select (1) to add entry, (2) to calculate, (-1) to exit: 1
+Enter positive integer: 8
+
+Select (1) to add entry, (2) to calculate, (-1) to exit: 2
+The average is 5
+
+----------------------------------------------------------
+
+Select (1) to add entry, (2) to calculate, (-1) to exit: -1
+Program exited...
