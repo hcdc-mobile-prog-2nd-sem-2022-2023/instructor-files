@@ -140,20 +140,106 @@ import 'dart:math';
 // }
 
 // Inheritance
+// class Animal {
+//   bool isAlive;
+
+//   Animal(this.isAlive);
+
+//   void speak() {
+//     print("make sound");
+//   }
+// }
+
+// class Dog extends Animal with AnimalAbility {
+//   String nickName;
+
+//   Dog(super.isAlive, this.nickName);
+
+//   void speak() {
+//     print("arf arf");
+//   }
+// }
+
+// class Cat extends Animal with AnimalAbility {
+//   String nickName;
+
+//   Cat(super.isAlive, this.nickName);
+
+//   void speak() {
+//     print("meow meow");
+//   }
+
+//   void jumpToFence() {
+//     print("jump to fence");
+//   }
+// }
+
+// class Kitten extends Cat with AnimalAbility {
+//   Kitten(super.isAlive, super.nickName);
+
+//   void cryIfMomIsNotAround() {
+//     print("cry if mom is not around");
+//   }
+// }
+
+// mixin AnimalAbility {
+//   void eat() {
+//     print("eat food");
+//   }
+// }
+
+// void main() {
+//   // Dog dog = Dog(true, 'Blacky');
+//   // print(dog.nickName);
+
+//   // Cat cat = Cat(true, 'Garfield');
+//   // cat.jumpToFence();
+//   // cat.speak();
+
+//   Kitten kitten = Kitten(true, "Baby");
+//   kitten.speak();
+//   kitten.cryIfMomIsNotAround();
+//   kitten.eat();
+// }
+
 class Animal {
-  void speak() {
-    print("make sound");
-  }
+  bool isAlive;
+
+  Animal(this.isAlive);
 }
 
-class Dog extends Animal {
-  void bark() {
-    print("arf arf");
+// Interfaces
+abstract class IAnimal {
+  void eat();
+  void sleep();
+  void walk();
+  void run();
+}
+
+class Dog extends Animal implements IAnimal {
+  Dog(super.isAlive);
+
+  void eat() {
+    print("Im eating");
+  }
+
+  void sleep() {
+    print("zzzzzz");
+  }
+
+  void walk() {
+    print("walking");
+  }
+
+  void run() {
+    print("running");
   }
 }
 
 void main() {
-  Dog dog = Dog();
-  dog.speak();
-  dog.bark();
+  Dog dog = Dog(true);
+  dog.eat();
+  dog.sleep();
+  dog.walk();
+  dog.run();
 }
