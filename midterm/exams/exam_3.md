@@ -10,9 +10,11 @@ abstract class IShape() {
 }
 
 class Shape() {
-    String name;
+    double length;
+    double width;
+    double height;
 
-    Shape(this.name);
+    Shape(this.length, this.width, this.height);
 }
 ```
 
