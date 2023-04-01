@@ -12,6 +12,10 @@ List of instructor materials for the Elective 2 course
 
 5. Dart Docs - https://dart.dev/guides/language/language-tour
 
+6. Flutter Installation - https://docs.flutter.dev/get-started/install
+
+7. Flutter Docs - https://docs.flutter.dev/
+
 ## Git Account Setup
 1. Open terminal
 
