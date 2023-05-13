@@ -16,6 +16,8 @@ List of instructor materials for the Elective 2 course
 
 7. Flutter Docs - https://docs.flutter.dev/
 
+8. Flutter Online Editor - https://flutlab.io/
+
 ## Git Account Setup
 1. Open terminal
 
